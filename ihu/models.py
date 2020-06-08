@@ -1,5 +1,5 @@
-from finalyear import db, login_manager
-from finalyear.utils import unique_id
+from ihu import db, login_manager
+from ihu.utils import unique_id
 from flask_login import UserMixin
 from datetime import datetime as dt
 

@@ -1,11 +1,11 @@
 from flask import Blueprint, render_template, url_for, flash, redirect, request
-from finalyear import app, db
+from ihu import app, db
 from datetime import datetime as dt
-from finalyear.utils import unique_id
-from finalyear.users.forms import UserRegForm, UserLogForm, PasswordChangeForm
+from ihu.utils import unique_id
+from ihu.users.forms import UserRegForm, UserLogForm, PasswordChangeForm
 from passlib.hash import sha256_crypt as sha256
 from flask_login import login_user, current_user, logout_user, login_required
-from finalyear.models import User
+from ihu.models import User
 
 users = Blueprint('users', __name__)
 

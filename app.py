@@ -1,4 +1,4 @@
-from finalyear import app
+from ihu import app
 
 if __name__ == '__main__':
  	app.run(debug=True)

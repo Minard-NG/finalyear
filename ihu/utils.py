@@ -1,7 +1,7 @@
 import secrets
 import random
 import os
-from finalyear import app
+from ihu import app
 from flask_login import current_user
 
 def unique_id():
@@ -12,4 +12,4 @@ def unique_id():
 
 
 
-from finalyear.models import User
+from ihu.models import User

@@ -1,4 +1,4 @@
-from finalyear.models import User
+from ihu.models import User
 from flask_wtf import FlaskForm
 from flask_login import current_user
 from wtforms import StringField, PasswordField, SelectField, BooleanField, IntegerField

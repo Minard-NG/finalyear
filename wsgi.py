@@ -1,1 +1,1 @@
-from finalyear import app
+from ihu import app
